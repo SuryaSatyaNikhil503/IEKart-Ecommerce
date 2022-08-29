@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<body align="center" bgcolor="yellow">
+<h2>Registration Form</h2>
+<table align="center">
+<form>
+<tr>
+<td>
+<label for="name">Name:</label>
+</td>
+<td><input type="text" id="name"  placeholder="Enter Your Full Name"/>
+</td>
+</tr>
+<tr>
+<td><label for="email">Email:</label>
+</td>
+<td><input type="email" id="email" placeholder="Enter Your Email Id" />
+</td>
+</tr>
+<tr>
+<td><label for="telnum">Mobile Number:</label>
+</td>
+<td><input type="telnum" id="telnum"  placeholder="Enter Your Mobile Number"/>
+</td>
+</tr>
+<tr>
+<td><label for="Roll No">Roll No:</label></td>
+<td><input type="number" id="rollno"  placeholder="Enter Your RollNo"/>
+</td>
+</tr>
+<tr>
+<td><label for="Dob.">Date of Birth:</label></td>
+<td><input type="date" id="dob" />
+</td>
+</tr>
+<tr>
+<td><label for="Gender.">Gender:</label></td>
+<td>
+<input type="radio" name="gender" value="male" checked> Male &nbsp
+<input type="radio" name="gender"> Female 
+</td>
+</tr>
+<td><label for="Hobbies">Hobbies:</label></td>
+<td>
+<input type="checkbox" name="play"> Playing &nbsp
+<input type="checkbox" name="swim" value="swimming" checked> Swimming &nbsp
+<input type="checkbox" name="acting"> Acting &nbsp
+<input type="checkbox" name="dancing"> Dancing &nbsp
+</td>
+</tr>
+<tr>
+<td><label for="City.">City:</label></td>
+<td>
+<select placeholder="select">
+<option value="" disabled selected hidden>Select</option>
+<option> Kakinada </option>
+<option> Rajahmundry </option>
+<option> Visakapatnam </option>
+<option> Tirupathi </option>
+<option> Vijayawada </option>
+<option> Other </option>
+</select>
+</td>
+</td>
+</tr>
+<td><label for="Age">Age:</label></td>
+<td><input type="range" id="age" min="1" max="100"  oninput="result.value=age.value"/> &nbsp <br>
+<input type="text" id="result"> 
+</td>
+</tr> 
+<tr>
+<tr>
+<td><label for="file.">Upload Your Photo:</label></td>
+<td><input type="file" id="file" />
+</td>
+</tr>
+<td><label for="about.">About Yourself:</label></td>
+<td>
+<textarea id="abt" name="about" rows="4" cols="50">
+Tell Something about urself.
+</textarea>
+</td>
+</tr>
+</form> 
+</table>
+<br><input type="button" value="submit"> 
+</body>
+</html>
